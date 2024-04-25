@@ -1,0 +1,424 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style type="text/css">
+.box1{
+	width:1200px;
+	height:850px;
+	background:#fcb6db;
+	}
+.out1{
+	width:150px;
+	height:300px;
+	margin-left:75px;}
+.int1{
+	width:150px;
+	height:150px;
+	background:#efba52;
+	border-radius:150px;}
+.int2{
+	width:60px;
+	height:60px;
+	background:#4c8574;
+	float:left;
+	border-radius:0 60px 0 60px;}
+.int3{
+	width:60px;
+	height:60px;
+	background:#4c8574;
+	float:left;
+	margin-left:30px;
+	margin-top:60px;
+	border-radius:60px 0 60px 0;}
+.int4{
+	width:30px;
+	height:150px;
+	background:#4c8574;
+	margin-left:60px;
+	float:left;
+	margin-top:-120px;}
+
+.out2{
+	width:300px;
+	height:150px;
+	background:#35509F;
+	border-radius:0 0 150px 150px;}
+.out3{
+	width:150px;
+	height:400px;
+	background:#EC7C4A;
+	margin-left:75px;}
+.out4{
+	width:75px;
+	height:300px;
+	background:#3c6be1;
+	margin-top:-300px;}
+.out5{
+	width:375px;
+	height:300px;
+	background:#3c6be1;
+	margin-left:225px;
+	margin-top:-300px;}
+
+.out6{
+	width:400px;
+	height:570px;
+	background:#e5e6e1;
+	margin-left:800px;
+	margin-top:-570px;}
+.out7{
+	width:200px;
+	height:400px;
+	background:#e5e6e1;
+	margin-left:600px;
+	margin-top:-400px;}
+.out8{
+	width:150px;
+	height:150px;
+	margin-left:650px;
+	margin-top:-550px;}
+.out9{
+	width:250px;
+	height:250px;
+	margin-left:850px;
+	margin-top:-450px;
+	}
+.star1,.star2,.star3{
+	width:0px;
+	height:0px;
+	}
+.star1{
+	border-left:150px solid transparent;
+	border-right:150px solid transparent;
+	border-bottom:100px solid;
+	border-bottom-color:#fdfa43;
+	transform:rotate(35deg);
+	margin-top:100px;
+	}
+.star2{
+	border-left:150px solid transparent;
+	border-right:150px solid transparent;
+	border-bottom:100px solid;
+	border-bottom-color:#fdfa43;
+	transform:rotate(-35deg);
+	margin-top:-100px;
+	}
+.star3{
+	border-left:35px solid transparent;
+	border-right:35px solid transparent;
+	border-bottom:120px solid;
+	border-bottom-color:#fdfa43;
+	margin-top:-200px;
+	margin-left:115px;
+	}
+.out10{
+	width:0px;
+	height:0px;
+	border-left:100px solid transparent;
+	border-right:100px solid transparent;
+	border-bottom:25px solid;
+	position:absolute;
+	border-bottom-color:#000000;
+	transform:rotate(180deg);
+	margin-left:400px;
+	margin-top:-300px;
+	}
+.out11{
+	width:0px;
+	height:0px;
+	border-left:100px solid transparent;
+	border-right:100px solid transparent;
+	border-bottom:25px solid;
+	position:absolute;
+	border-bottom-color:#fcb6db;
+	margin-top:50px;
+	transform:rotate(180deg);
+	margin-left:400px;
+	margin-top:-315px;
+	}
+.out12{
+	width:0px;
+	height:0px;
+	border-left:80px solid transparent;
+	border-right:80px solid transparent;
+	border-bottom:20px solid;
+	position:absolute;
+	border-bottom-color:#000000;
+	transform:rotate(180deg);
+	margin-left:600px;
+	margin-top:-257px;
+	}
+.out13{
+	width:0px;
+	height:0px;
+	border-left:80px solid transparent;
+	border-right:80px solid transparent;
+	border-bottom:20px solid;
+	position:absolute;
+	border-bottom-color:#fcb6db;
+	transform:rotate(180deg);
+	margin-left:600px;
+	margin-top:-270px;
+	}
+.out14{
+	width:65px;
+	height:5px;
+	background:#2352c8;
+	margin-top:450px;
+	margin-left:10px;}
+.out15{
+	width:65px;
+	height:2px;
+	background:#fcb6db;
+	margin-left:10px;
+	margin-top:-150px;}
+.out16{
+	width:200px;
+	height:5px;
+	background:#2352c8;
+	margin-left:400px;
+	margin-top:130px;}
+.out17{
+	width:150px;
+	height:5px;
+	background:#2352c8;
+	margin-left:250px;
+	margin-top:-30px;}
+.out18{
+	width:130px;
+	height:3px;
+	background:#fcb6db;
+	margin-top:-50px;
+	margin-left:350px;}
+.out19{
+	width:150px;
+	height:5px;
+	background:#2352c8;
+	margin-top:-60px;
+	margin-left:270px;}
+.out20{
+	width:100px;
+	height:3px;
+	background:#fcb6db;
+	margin-top:-60px;
+	margin-left:400px;}
+.out21{
+	width:0px;
+	height:0px;
+	border-left:100px solid transparent;
+	border-right:100px solid transparent;
+	border-bottom:80px solid;
+	border-bottom-color:#2c9157;
+	margin-left:600px;
+	margin-top:-30px;}
+.out22{
+	width:50px;
+	height:190px;
+	margin-left:75px;
+	background:#8e5f33;
+	margin-left:675px;}
+
+.out23{
+	width:0px;
+	height:0px;
+	border-left:100px solid transparent;
+	border-right:100px solid transparent;
+	border-bottom:80px solid;
+	border-bottom-color:#2c9157;
+	margin-left:1000px;
+	margin-top:-270px;
+	}
+.out24{
+	width:50px;
+	height:190px;
+	background:#8e5f33;
+	margin-left:1075px;}
+.out71{
+	width:0px;
+	height:0px;
+	border-left:35px solid transparent;
+	border-right:35px solid transparent;
+	border-bottom:75px solid;
+	position:absolute;
+	border-bottom-color:#2c9157;
+	margin-top:325px;
+}
+.out72{
+	width:0px;
+	height:0px;
+	border-left:35px solid transparent;
+	border-right:35px solid transparent;
+	border-bottom:75px solid;
+	position:absolute;
+	border-bottom-color:#2c9157;
+	margin-left:130px;
+	margin-top:325px;}
+.out61{
+	width:0px;
+	height:0px;
+	border-left:35px solid transparent;
+	border-right:35px solid transparent;
+	border-bottom:75px solid;
+	position:absolute;
+	border-bottom-color:#2c9157;
+	margin-top:495px;}
+.out62{
+	width:0px;
+	height:0px;
+	border-left:35px solid transparent;
+	border-right:35px solid transparent;
+	border-bottom:75px solid;
+	position:absolute;
+	border-bottom-color:#2c9157;
+	margin-left:205px;
+	margin-top:495px;}
+.out63{
+	width:0px;
+	height:0px;
+	border-left:35px solid transparent;
+	border-right:35px solid transparent;
+	border-bottom:75px solid;
+	position:absolute;
+	border-bottom-color:#2c9157;
+	margin-left:325px;
+	margin-top:495px;}
+.out64{
+	width:0px;
+	height:0px;
+	border-left:32px solid transparent;
+	border-right:32px solid transparent;
+	border-bottom:75px solid;
+	position:absolute;
+	border-bottom-color:#2c9157;
+	margin-left:70px;
+	margin-top:495px;}
+.out65{
+	width:0px;
+	height:0px;
+	border-left:32px solid transparent;
+	border-right:32px solid transparent;
+	border-bottom:75px solid;
+	position:absolute;
+	border-bottom-color:#2c9157;
+	margin-left:134px;
+	margin-top:495px;}
+.out26{
+	width:200px;
+	height:200px;
+	margin-top:-700px;
+	margin-left:350px;}
+.b1{
+	width:0;
+	height:0;
+	border-bottom:50px solid #FFFFFF;
+	border-left: 50px solid transparent;
+	border-right:50px solid transparent;
+	border-top:50px solid transparent;
+	float:left;
+	margin-top:-100px;}
+.b2{
+	width:0;
+	height:0;
+	border:50px solid;
+	border-bottom-color:transparent;
+	border-left-color:#FFFFFF;
+	border-right-color:transparent;
+	border-top-color:transparent;
+	float:left;
+	margin-top:-100px;
+	margin-left:100px;}
+.b3{
+	width:0;
+	height:0;
+	border:50px solid;
+	border-bottom-color:transparent;
+	border-left-color:transparent;
+	border-right-color:#FFFFFF;
+	border-top-color:transparent;
+	float:left;}
+.b4{
+	width:0;
+	height:0;
+	border:50px solid;
+	border-bottom-color:transparent;
+	border-left-color:transparent;
+	border-right-color:transparent;
+	border-top-color:#FFFFFF;
+	float:left;}
+.out27{
+	width:10px;
+	height:280px;
+	background:#FFFFFF;
+	margin-left:449px;
+	margin-top:-78px;}
+.out28{
+	width:200px;
+	height:150px;
+	margin-left:800px;
+	margin-top:150px;}
+</style>
+
+
+</head>
+
+<body>
+<div class="box1">
+  <div class="out1">
+    	<div class="int1"></div>
+        <div class="int2"></div>
+        <div class="int3"></div>
+        <div class="int4"></div>  
+  </div>
+    <div class="out2"></div>
+  	<div class="out3"></div>
+    <div class="out4"></div>
+    <div class="out5"></div>
+    <div class="out6">
+    <div class="out61"></div>
+    <div class="out62"></div>
+    <div class="out63"></div>
+    <div class="out64"></div>
+    <div class="out65"></div>
+    <div class="out66"></div>
+    </div>
+    <div class="out7">
+    <div class="out71"></div>
+    <div class="out72"></div>
+  </div>
+    <div class="out8">
+   	 <img src="../img/微信图片_20240401203212.png" width="150" height="150" /></div>
+     <div class="out9">
+     <div class="star1"></div>
+     <div class="star2"></div>
+     <div class="star3"></div>
+     </div>
+     <div class="out10"></div>
+     <div class="out11"></div>
+     <div class="out12"></div>
+     <div class="out13"></div>
+     <div class="out14"></div>
+     <div class="out15"></div>
+     <div class="out16"></div>
+     <div class="out17"></div>
+     <div class="out18"></div>
+     <div class="out19"></div>
+     <div class="out20"></div>
+     <div class="out21"></div>
+     <div class="out22"></div>
+     <div class="out23"></div>
+     <div class="out24"></div>
+  <div class="out25"></div>
+  <div class="out26">
+     <div class="b1"></div>
+     <div class="b2"></div>
+     <div class="b3"></div>
+     <div class="b4"></div>
+     </div>
+  <div class="out27"></div>
+  <div class="out28">
+   <img src="../img/图片3.png"  width="200" height="150"/></div>
+</div>
+</body>
+</html>
